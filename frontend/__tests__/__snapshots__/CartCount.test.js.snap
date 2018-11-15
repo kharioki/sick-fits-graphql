@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CartCount /> matches the snapshot 1`] = `
+<styled.span>
+  <TransitionGroup
+    childFactory={[Function]}
+    component="div"
+  >
+    <CSSTransition
+      className="count"
+      classNames="count"
+      key="10"
+      timeout={
+        Object {
+          "enter": 400,
+          "exit": 400,
+        }
+      }
+      unmountOnExit={true}
+    >
+      <styled.div>
+        10
+      </styled.div>
+    </CSSTransition>
+  </TransitionGroup>
+</styled.span>
+`;
+
+exports[`<CartCount /> updates via props 1`] = `
+<styled.span>
+  <TransitionGroup
+    childFactory={[Function]}
+    component="div"
+  >
+    <CSSTransition
+      className="count"
+      classNames="count"
+      key="50"
+      timeout={
+        Object {
+          "enter": 400,
+          "exit": 400,
+        }
+      }
+      unmountOnExit={true}
+    >
+      <styled.div>
+        50
+      </styled.div>
+    </CSSTransition>
+  </TransitionGroup>
+</styled.span>
+`;
+
+exports[`<CartCount /> updates via props 2`] = `
+<styled.span>
+  <TransitionGroup
+    childFactory={[Function]}
+    component="div"
+  >
+    <CSSTransition
+      className="count"
+      classNames="count"
+      key="10"
+      timeout={
+        Object {
+          "enter": 400,
+          "exit": 400,
+        }
+      }
+      unmountOnExit={true}
+    >
+      <styled.div>
+        10
+      </styled.div>
+    </CSSTransition>
+  </TransitionGroup>
+</styled.span>
+`;
